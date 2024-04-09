@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="est.css">
+    <title>Ejercicio js</title>
+
+</head>
+<body>
+    <form id="formulariodelbanco" action="" onsubmit="return validar(this)">
+        <label for="Capitalinicial">Capital Inicial</label>
+        <br>
+        <input type="text" id="Capitalinicial" name="Capitalinicial" required>
+        <input type="submit" value="Calcular Ganancia">
+    <div id="resultado1" style="display: none;">
+        <h2>Ganancia en un mes:</h2>
+        <p id="Ganancia1"></p>
+    </div>
+    </form>
+    <script src="form.js"></script>
+    </body>
+    </html>
